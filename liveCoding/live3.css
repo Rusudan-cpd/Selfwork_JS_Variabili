@@ -1,0 +1,85 @@
+*{
+    font-family: "Roboto", sans-serif;
+}
+h1,h2,h3{
+    font-family: "Electrolize", sans-serif;
+}
+:root{
+    --yellow: rgb(255, 234, 0);
+    --fucsia: rgb(181, 23, 158);
+    --viola: rgb(35, 19, 58);
+}
+.btn-custom{
+    border: 1px solid var(--yellow)
+}
+.btn-custom:hover{
+    background-color: var(--viola);
+    color: var(--yellow);
+    transition: 0.6s;
+}
+.head-custom{
+    background-image: url(./media/bg-1.jpg);
+}
+.icon{
+    color: var(--yellow);
+}
+.bold{
+ font-size: 35px;
+}
+.sec1-custom{
+    background-color: var(--viola);
+}
+.cal2-custom{
+   font-size: 50px;
+    margin-right: 20px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+.sec2-custom{
+    min-height: 65vh;
+    background-image: url(./media/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.custom-calend{
+    font-size: 50px;
+    margin: 20px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    padding: 10px 20px;
+}
+.btn-custom{
+    background-color: var(--yellow);
+    color: var(--viola);
+}
+.f-custom{
+    background-color: var(--viola);
+    padding: 40px 15px;
+    top: 100px;
+}
+input{
+    background-color: var(--viola);
+    border-bottom: 1px solid var(--fucsia)
+}
+.sec3-custom{
+    background-color: var(--viola);
+    padding: 100px 20px;
+}
+.h2-custom{
+    color: var(--yellow);
+}
+.sec4-custom{
+    background-image: url(./media/bg-3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.tit{
+    color: var(--yellow);
+}
+.fot-custom{
+    height: 20px;
+ 
+   
+}

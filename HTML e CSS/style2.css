@@ -1,0 +1,228 @@
+ *{
+   font-family: "Roboto", serif;
+ }
+
+ nav{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 20px;
+   background-color: rgb(226, 226, 33);
+   height: 12vh;
+}
+ .logo{
+   
+   height: 100px;
+   width: 150px;
+     
+      
+        
+ }
+nav ul{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+
+ }
+
+
+ 
+
+ nav li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    list-style-type: none;
+    margin-left: 30px;
+   
+ }
+ nav a{
+    text-decoration: none;
+    font-size: 20px;
+ }
+
+ .head{
+   font-size: 23px;
+   height: 90vh;
+   color: black;
+   background-image: url('https://wallpapers.com/images/featured/x9rj9wdyu9lnbgy7.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+ 
+ .h2{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+   
+
+    
+ }
+ .foto{
+   height: 200px;
+   width: 300px;
+ }
+ 
+a{
+   text-decoration: none;
+   list-style-type: none;
+   
+}
+
+.sezione{
+  display: flex;
+  min-height: 85vh;
+  justify-content: space-evenly;
+  align-items: start;
+  margin-top: 30px;
+}
+   
+article{
+  width: 30%;
+  height: 75%;
+  display: flex;
+ 
+  margin-bottom: 20px;
+  padding: 20px;
+ 
+}
+
+.art{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+
+}
+.asid{
+   background-color: rgb(226, 226, 33);
+}
+.butt{
+   background-color: black;
+   color: rgb(202, 202, 10);
+   cursor: pointer;
+   padding: 10px;
+   border: 2px solid black;
+   margin-top: 30px;
+   margin-bottom: 30px;
+   width: 200px;
+   font-size: 15px;
+
+
+}
+.move{
+   width: 80px;
+   height: 80px;
+   position: relative;
+   left: 92%;
+   background-color: yellowgreen;
+   animation: moveAndChangeColor 2s infinite alternate;
+
+ }
+@keyframes moveAndChangeColor {
+   from {
+      right: 0%;
+      background-color: rgb(53, 221, 38);
+   }
+   to {
+      left: 200px;
+      background-color: rgb(251, 255, 0);
+     
+   }
+   
+     }
+   
+
+  .piedipagina{
+   background-color: black;
+   color: white;
+   font-size: 20px;
+   height: 30vh;
+   
+ 
+  }
+
+
+   
+@media screen and (max-width: 786px){
+     body{
+      margin-left: 0%;
+      margin-right: 0%;
+     }
+
+nav{
+   position: sticky;
+   top: 0;
+ 
+}
+ 
+
+.head{
+height: 50vh;
+color: whitesmoke;
+display: flex;
+justify-content: start;
+}
+
+h1{
+   font-size: 15px;
+}
+
+
+article{
+   width: 90%;
+}
+
+.sezione{
+   flex-direction: column;
+   width: 100%;
+
+}
+
+.piedipagina{
+   height: 55vh;
+}
+
+ 
+.move{
+   height: 65px;
+   width: 65px;
+}
+h2{
+   font-size: 15px;
+
+}
+
+nav a{
+   font-size: 13px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
